@@ -309,15 +309,6 @@ footer {
   padding-bottom: 5px;
   font-family: "Montserrat", sans-serif;
 }
-h3 {
-  text-decoration: underline;
-  text-decoration-color: #bc6c25;
-}
-
-h4 {
-  border: 3px solid #bc6c25;
-  padding: 4px;
-}
 
 .text {
   color: #fff;
@@ -332,7 +323,13 @@ h4 {
   padding-bottom: 5px;
 }
 
-/*media queries*/
+/* @ MEDIA QUERIES */
+
+@media (max-width: 834px){
+  .menu {
+    padding: 5px;
+  }
+}
 
 @media (max-width: 964px) {
   .contact-container {
