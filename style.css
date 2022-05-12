@@ -22,7 +22,7 @@ li {
   list-style: none;
 }
 
-/* logo text */
+/* ------------------------------logo text */
 h2 {
   border: 3px solid #bc6c25;
   padding: 4px;
@@ -84,7 +84,7 @@ a {
   min-height: 100%;
 }
 
-/* home page arrow icon  */
+/* -----------------------home page arrow icon  */
 #hero-page-arrow-down {
   position: absolute;
   top: 75%;
@@ -105,7 +105,7 @@ img {
   border: 8px solid #dda15e;
 }
 
-/*about page css*/
+/*------------------------------about page css*/
 .heading {
   display: flex;
   justify-content: center;
@@ -121,6 +121,7 @@ img {
 
 .kristen-image {
   border: 8px solid #bc6c25;
+  margin-bottom: 15px;
 }
 
 .about-me-paragraph {
@@ -129,8 +130,8 @@ img {
   background-color: #bc6c25;
   padding: 100px 10px;
   text-align: center;
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 40%;
   position: relative;
   top: 75px;
   left: -100px;
@@ -143,7 +144,7 @@ img {
   box-sizing: border-box;
   background-color: #606c38;
   border-radius: 0.4rem;
-  margin-bottom: 1rem;
+  margin: 2rem;
   padding: 1rem;
   box-shadow: 0.5rem 2px 0.5rem rgba(0, 0, 0, 0.1);
 }
@@ -195,13 +196,6 @@ img {
   max-height: 20rem;
 }
 
-/* .container {
-  width: 100%;
-  max-width: 80rem;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-} */
-
 /*----------------------------Contact Page*/
 
 h3 {
@@ -210,7 +204,7 @@ h3 {
 .contact-container {
   background: #606c38;
   max-width: 960px;
-  margin: auto;
+  margin: 25px auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -294,7 +288,7 @@ footer {
   font-size: 7rem;
 }
 
-/* second footer column*/
+/* -----------------------second footer column*/
 .f-grid-item-2 {
   text-align: center;
   padding-bottom: 5px;
@@ -314,21 +308,36 @@ footer {
   padding-bottom: 5px;
 }
 
-/* @ MEDIA QUERIES */
+/* -------------------------@ MEDIA QUERIES */
 
+/*-------------------------------- @media - 964px*/
 @media (max-width: 964px) {
   .contact-container {
     margin: 0 auto;
     width: 90%;
   }
+    /* About Page @media - 834px */
+
+    .about-page-container {
+      padding-bottom: 15px;
+    }
 }
 
+/*--------------------------------@media - 834px*/
 @media (max-width: 834px){
   .menu {
     padding: 5px;
   }
+  /* About Page @media - 834px */
+  .about-page-container {
+    padding-bottom: 15px;
+  }
+  .contact-container {
+    margin: 15px;
+  }
 }
 
+/*--------------------------------@media - 700px*/
 @media (max-width: 700px) {
   .contact-container {
     grid-template-columns: 1fr;
@@ -356,7 +365,7 @@ footer {
     font-size: small;
   }
 
-  /*Contact Page @media*/
+  /*----------------------Contact Page @media - 700px*/
   .contact-container {
     max-height: 90%;
     max-width: 40%;
@@ -378,9 +387,9 @@ footer {
     display: none;
   }
 }
-
+/*-----------------------------------@media - 429px*/
 @media (max-width: 429px){
-  /*Home Page @media*/
+  /*-----------------------Home Page @media 429px*/
   h1 {
     font-size: 2rem;
   }
@@ -396,18 +405,29 @@ footer {
   h2 {
     font-size: 1.5rem;
   }
-  /*About Page @media*/
+  /*-------------------------About Page @media 429px*/
   .heading {
     font-size: 2rem;
   }
+  .about-page-container {
+    padding-bottom: 15px;
+  }
+  .kristen-image {
+    max-width: 50%;
+  }
+  .about-me-paragraph {
+    position: inherit;
+    margin-right: 10px;
+  }
 
-  /*Contact Page @media*/
+  /*-----------------------Contact Page @media 429px*/
   
   .contact-container {
     max-width: 100%;
     height: fit-content;
     display: flex;
     justify-content: center;
+    margin: 10px;
   }
   .form-container {
     display: flexbox;
@@ -423,13 +443,13 @@ footer {
     border: 2px solid blue;
   }
 
-   /*Footer @media*/
+   /*----------------------------Footer @media 429px*/
    .f-grid-item {
     font-size: 3rem;
     padding-top: 55px;
   }
 }
-
+/*-------------------------------------@media - 412px*/
 @media (max-width: 412px){
   h1 {
     font-size: 3rem;
@@ -441,12 +461,12 @@ footer {
   .menu {
     padding: 10px;
   }
-  /*About Page @media*/
+  /*------------------------------About Page @media - 412px*/
   .heading {
     font-size: 2rem;
   }
 
-  /*Contact Page @media*/
+  /*-----------------------Contact Page @media - 412px */
 
   .contact-container {
     max-width: 100%;
@@ -455,16 +475,18 @@ footer {
     display: none;
   }
 
-   /*Footer @media*/
+   /*---------------------------Footer @media - 412px*/
    .f-grid-item {
     font-size: 3rem;
     padding-top: 55px;
   }
 }
 
+/*--------------------------------@media - 390px*/
+
 @media (max-width: 390px) {
 
-  /* Home Page @media*/
+  /* ------------------------ Home Page @media 390px*/
   h1 {
     font-size: 2rem;
   }
@@ -486,7 +508,7 @@ footer {
     max-width: 78%;
   }
 
-  /*About Page @media*/
+  /*---------------------- About Page @media - 390px */
   h2 {
     font-size: small;
     margin-top: 13%;
@@ -513,7 +535,7 @@ footer {
     font-size: small;
   }
 
-  /* Contact Page @media */
+  /* -----------------Contact Page @media - 390px*/
   .contact-form {
     max-width: 100%;
   }
@@ -524,13 +546,13 @@ footer {
   .map {
     display: none;
   }
-   /*Footer @media*/
+   /*---------------------- Footer @media - 390px*/
    .f-grid-item {
     font-size: 3rem;
     padding-top: 55px;
   }
 }
-
+/*--------------------------------@media 379px*/
 @media (max-width: 379px) {
   h1 {
     font-size: large;
@@ -552,14 +574,15 @@ footer {
     margin-top: 13%;
     margin-bottom: 12%;
   }
-  /*Contact Page @media*/
+  /* --------------------------------Contact Page @media - 379px*/
   .map {
     display: none;
   }
 }
 
+/* --------------------------------------- @media - 376px*/
 @media (max-width: 376px) {
-  /*Home Page @media*/
+  /* -----------------------------------Home Page @media - 376px */
   h1 {
     font-size: large;
   }
@@ -579,7 +602,7 @@ footer {
     margin-top: 13%;
     margin-bottom: 12%;
   }
-  /*About Page @media*/
+  /* ---------------------------------About Page @media - 376px */
   .kristen-image {
     min-height: auto;
     min-width: 50%;
@@ -593,14 +616,14 @@ footer {
   .accordian-link {
     font-size: small;
   }
-  /* Contact Page @media*/
+  /* --------------------------------- Contact Page @media 376px */
   .map {
     display: none;
   }
 }
-
+ /* ---------------------------------------@media -364px */
 @media (max-width: 364px) {
-  /*Home Page @media*/
+  /* ----------------------------------Home Page @media - 364px*/
   .hero {
     min-height: 25%;
   }
@@ -622,7 +645,7 @@ footer {
     font-size: medium;
     margin-top: 3rem;
   }
-  /* about page @media*/
+  /* --------------------------------about page @media - 364px*/
   .heading {
     font-size: larger;
     padding-top: 25%;
@@ -640,7 +663,7 @@ footer {
   .accordian-link {
     font-size: small;
   }
-  /* Contact Page @media*/
+  /* --------------------------------Contact Page @media - 364px*/
  
   .form-container {
     max-height: 80%;
@@ -659,7 +682,7 @@ footer {
   .map {
     display: none;
   }
-   /*Footer @media*/
+   /* ----------------------------------Footer @media - 364px*/
    .f-grid-item {
     font-size: 3rem;
     padding-top: 55px;
