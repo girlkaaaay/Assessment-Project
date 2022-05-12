@@ -5,6 +5,9 @@
 body {
   width: 100%;
   height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
 }
 
 header {
@@ -221,6 +224,7 @@ h3 {
   align-items: center;
   flex-direction: column;
   width: 50%;
+  margin: 25px;
 }
 
 .contact-form input,
@@ -253,14 +257,16 @@ h3 {
   background: #bc6c25;
 }
 
+#contact-page-send-button {
+  max-width: 50%;
+}
 
- .map {
-   background-color: grey;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+.map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 50%;
-  height: 90%;
+  height: 70%;
 }
 
 iframe {
@@ -316,15 +322,15 @@ footer {
     margin: 0 auto;
     width: 90%;
   }
-    /* About Page @media - 834px */
+  /* About Page @media - 834px */
 
-    .about-page-container {
-      padding-bottom: 15px;
-    }
+  .about-page-container {
+    padding-bottom: 15px;
+  }
 }
 
 /*--------------------------------@media - 834px*/
-@media (max-width: 834px){
+@media (max-width: 834px) {
   .menu {
     padding: 5px;
   }
@@ -388,7 +394,7 @@ footer {
   }
 }
 /*-----------------------------------@media - 429px*/
-@media (max-width: 429px){
+@media (max-width: 429px) {
   /*-----------------------Home Page @media 429px*/
   h1 {
     font-size: 2rem;
@@ -421,7 +427,7 @@ footer {
   }
 
   /*-----------------------Contact Page @media 429px*/
-  
+
   .contact-container {
     max-width: 100%;
     height: fit-content;
@@ -443,14 +449,14 @@ footer {
     border: 2px solid blue;
   }
 
-   /*----------------------------Footer @media 429px*/
-   .f-grid-item {
+  /*----------------------------Footer @media 429px*/
+  .f-grid-item {
     font-size: 3rem;
     padding-top: 55px;
   }
 }
 /*-------------------------------------@media - 412px*/
-@media (max-width: 412px){
+@media (max-width: 412px) {
   h1 {
     font-size: 3rem;
   }
@@ -475,8 +481,8 @@ footer {
     display: none;
   }
 
-   /*---------------------------Footer @media - 412px*/
-   .f-grid-item {
+  /*---------------------------Footer @media - 412px*/
+  .f-grid-item {
     font-size: 3rem;
     padding-top: 55px;
   }
@@ -485,7 +491,6 @@ footer {
 /*--------------------------------@media - 390px*/
 
 @media (max-width: 390px) {
-
   /* ------------------------ Home Page @media 390px*/
   h1 {
     font-size: 2rem;
@@ -546,8 +551,8 @@ footer {
   .map {
     display: none;
   }
-   /*---------------------- Footer @media - 390px*/
-   .f-grid-item {
+  /*---------------------- Footer @media - 390px*/
+  .f-grid-item {
     font-size: 3rem;
     padding-top: 55px;
   }
@@ -621,7 +626,7 @@ footer {
     display: none;
   }
 }
- /* ---------------------------------------@media -364px */
+/* ---------------------------------------@media -364px */
 @media (max-width: 364px) {
   /* ----------------------------------Home Page @media - 364px*/
   .hero {
@@ -664,7 +669,7 @@ footer {
     font-size: small;
   }
   /* --------------------------------Contact Page @media - 364px*/
- 
+
   .form-container {
     max-height: 80%;
   }
@@ -672,7 +677,7 @@ footer {
     max-height: 75%;
     align-items: center;
   }
-  .contact-container{
+  .contact-container {
     max-height: 100%;
   }
   textarea {
@@ -682,10 +687,9 @@ footer {
   .map {
     display: none;
   }
-   /* ----------------------------------Footer @media - 364px*/
-   .f-grid-item {
+  /* ----------------------------------Footer @media - 364px*/
+  .f-grid-item {
     font-size: 3rem;
     padding-top: 55px;
   }
 }
-
