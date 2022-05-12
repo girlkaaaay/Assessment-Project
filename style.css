@@ -10,7 +10,6 @@ body {
 header {
   background-color: #283618;
   color: #dda15e;
-  border: 2px solid orange;
   display: flex;
   justify-content: space-between;
   padding-left: 15px;
@@ -43,6 +42,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   gap: 60px;
+  padding: 5px;
 }
 
 a {
