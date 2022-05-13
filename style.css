@@ -343,6 +343,17 @@ footer {
   }
 }
 
+/* --------------------@media - 796 */
+@media (max-width: 796px){
+  /* ----------------Home Page @media -796px */
+  h1 {
+    font-size: 3rem;
+  }
+  #hero-page-arrow-down {
+    font-size: 3rem;
+  }
+}
+
 /*--------------------------------@media - 700px*/
 @media (max-width: 700px) {
   .contact-container {
@@ -393,6 +404,64 @@ footer {
     display: none;
   }
 }
+
+/* ----------------------@media - 683px */
+@media (max-width: 683px){
+  h1 {
+    font-size: 2rem;
+  }
+  #hero-page-arrow-down {
+    font-size: 2rem;
+    top: 87%;
+    left: 48%;
+  }
+  /* -----------------------About Page @media - 683px */
+  .kristen-image{
+    margin-left: 25px;
+  }
+  /* ------------------------Contact Page @media - 683px */
+  .contact-container {
+    border: 2px solid purple;
+    max-width: 100%;
+    text-align: center;
+}
+
+/* -------------------------@media - 600px */
+
+@media (max-width: 600px){
+
+  /* ----------------------Home Page @media - 600px*/
+  h1 {
+    font-size: 3rem;
+  }
+  #hero-page-arrow-down {
+    font-size: 2.5rem;
+    margin-top: 45px;
+    left: 50%;
+  }
+
+  /* ---------------------- About Page @media - 600px*/
+  .about-page-container {
+    margin-left: 25px;
+  }
+
+  /* ---------------------Contact Page @media - 600px */
+  .contact-container {
+    max-width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h3 {
+    display: flex;
+    justify-content: center;
+  }
+  .contact-form {
+    padding-left: 50px;
+  }
+}
+
+
 /*-----------------------------------@media - 429px*/
 @media (max-width: 429px) {
   /*-----------------------Home Page @media 429px*/
@@ -446,7 +515,6 @@ footer {
   }
   iframe {
     display: none;
-    border: 2px solid blue;
   }
 
   /*----------------------------Footer @media 429px*/
@@ -461,7 +529,7 @@ footer {
     font-size: 3rem;
   }
   #hero-page-arrow-down {
-    font-size: 2rem;
+    font-size: 1.5rem;
     left: 50%;
   }
   .menu {
@@ -648,7 +716,6 @@ footer {
   }
   #hero-page-arrow-down {
     font-size: medium;
-    margin-top: 3rem;
   }
   /* --------------------------------about page @media - 364px*/
   .heading {
@@ -692,4 +759,5 @@ footer {
     font-size: 3rem;
     padding-top: 55px;
   }
+}
 }
