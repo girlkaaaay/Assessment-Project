@@ -343,9 +343,9 @@ footer {
   }
 }
 
-/* --------------------@media - 796 */
-@media (max-width: 796px){
-  /* ----------------Home Page @media -796px */
+/* --------------------@media - 812 */
+@media (max-width: 812px) {
+  /* ----------------Home Page @media -812px */
   h1 {
     font-size: 3rem;
   }
@@ -356,18 +356,27 @@ footer {
 
 /*--------------------------------@media - 700px*/
 @media (max-width: 700px) {
-  .contact-container {
-    grid-template-columns: 1fr;
-    padding-right: 10px;
-    gap: 1rem;
-  }
-  .map iframe {
-    height: 400px;
+  .menu {
+    font-size: small;
   }
   .navbar {
     display: flex;
     align-items: center;
   }
+
+  /* --------------------Home Page @media - 700px*/
+  @media (max-width: 700px) {
+    h1 {
+      font-size: 2rem;
+    }
+    #hero-page-arrow-down {
+      font-size: 2rem;
+      top: 85%;
+      left: 50%;
+    }
+  }
+
+  /* -----------------About Page @media - 700px*/
   .hero {
     min-height: 40%;
   }
@@ -378,14 +387,13 @@ footer {
     min-height: 50%;
     padding: 30px;
   }
-  .menu {
-    font-size: small;
-  }
 
   /*----------------------Contact Page @media - 700px*/
+
   .contact-container {
-    max-height: 90%;
-    max-width: 40%;
+    grid-template-columns: 1fr;
+    padding-right: 10px;
+    gap: 1rem;
   }
   .form-container {
     max-height: 50%;
@@ -405,8 +413,22 @@ footer {
   }
 }
 
-/* ----------------------@media - 683px */
-@media (max-width: 683px){
+/* ----------------------@media - 698px*/
+
+/* ---------------------About Page @media - 698px*/
+@media (max-width: 698px) {
+  h1 {
+    font-size: 2rem;
+  }
+  #hero-page-arrow-down {
+    font-size: 2rem;
+    top: 85%;
+    left: 49%;
+  }
+}
+
+/* ----------------------@media - 684px */
+@media (max-width: 684px) {
   h1 {
     font-size: 2rem;
   }
@@ -415,349 +437,327 @@ footer {
     top: 87%;
     left: 48%;
   }
-  /* -----------------------About Page @media - 683px */
-  .kristen-image{
+  /* -----------------------About Page @media - 684px */
+  .kristen-image {
     margin-left: 25px;
   }
-  /* ------------------------Contact Page @media - 683px */
+  /* ------------------------Contact Page @media - 684px */
   .contact-container {
     border: 2px solid purple;
     max-width: 100%;
     text-align: center;
-}
-
-/* -------------------------@media - 600px */
-
-@media (max-width: 600px){
-
-  /* ----------------------Home Page @media - 600px*/
-  h1 {
-    font-size: 3rem;
-  }
-  #hero-page-arrow-down {
-    font-size: 2.5rem;
-    margin-top: 45px;
-    left: 50%;
   }
 
-  /* ---------------------- About Page @media - 600px*/
-  .about-page-container {
-    margin-left: 25px;
+  /* -------------------------@media - 600px */
+
+  @media (max-width: 600px) {
+    /* ----------------------Home Page @media - 600px*/
+    h1 {
+      font-size: 3rem;
+    }
+    #hero-page-arrow-down {
+      display: none;
+    }
+
+    /* ---------------------- About Page @media - 600px*/
+    .about-page-container {
+      margin-left: 25px;
+    }
+
+    /* ---------------------Contact Page @media - 600px */
+    .contact-container {
+      max-width: max-content;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    h3 {
+      display: flex;
+      justify-content: center;
+    }
+    .contact-form {
+      padding-left: 50px;
+    }
   }
 
-  /* ---------------------Contact Page @media - 600px */
-  .contact-container {
-    max-width: max-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  h3 {
-    display: flex;
-    justify-content: center;
-  }
-  .contact-form {
-    padding-left: 50px;
-  }
-}
 
 
-/*-----------------------------------@media - 429px*/
-@media (max-width: 429px) {
-  /*-----------------------Home Page @media 429px*/
-  h1 {
-    font-size: 2rem;
+
+  /*-----------------------------------@media - 429px*/
+  @media (max-width: 429px) {
+    /*-----------------------Home Page @media 429px*/
+    h1 {
+      font-size: 2rem;
+
+    .menu {
+      padding: 10px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+    /*-------------------------About Page @media 429px*/
+    .heading {
+      font-size: 2rem;
+    }
+    .about-page-container {
+      padding-bottom: 15px;
+    }
+    .kristen-image {
+      max-width: 50%;
+    }
+    .about-me-paragraph {
+      position: inherit;
+      margin-right: 10px;
+    }
+
+    /*-----------------------Contact Page @media 429px*/
+
+    .contact-container {
+      max-width: 100%;
+      height: fit-content;
+      display: flex;
+      justify-content: center;
+      margin: 10px;
+    }
+    .form-container {
+      display: flexbox;
+      justify-content: center;
+    }
+
+    .contact-form {
+      display: contents;
+      justify-content: center;
+    }
+    iframe {
+      display: none;
+    }
+
+    /*----------------------------Footer @media 429px*/
+    .f-grid-item {
+      font-size: 3rem;
+      padding-top: 55px;
+    }
   }
-  #hero-page-arrow-down {
-    font-size: 2rem;
-    top: 85%;
-    left: 48%;
-  }
-  .menu {
-    padding: 10px;
+  /*-------------------------------------@media - 412px*/
+  @media (max-width: 412px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+    .menu {
+      padding: 10px;
+    }
+    /*------------------------------About Page @media - 412px*/
+    .heading {
+      font-size: 2rem;
+    }
+
+    /*-----------------------Contact Page @media - 412px */
+
+    .contact-container {
+      max-width: 100%;
+    }
+    .map {
+      display: none;
+    }
+
+    /*---------------------------Footer @media - 412px*/
+    .f-grid-item {
+      font-size: 3rem;
+      padding-top: 55px;
+    }
   }
 
-  h2 {
-    font-size: 1.5rem;
-  }
-  /*-------------------------About Page @media 429px*/
-  .heading {
-    font-size: 2rem;
-  }
-  .about-page-container {
-    padding-bottom: 15px;
-  }
-  .kristen-image {
-    max-width: 50%;
-  }
-  .about-me-paragraph {
-    position: inherit;
-    margin-right: 10px;
+  /* ---------------------------@media - 409px */
+  @media (max-width: 409px) {
+    /* ----------------------Home Page @media - 409px*/
+    h1 {
+      font-size: 2rem;
+    }
   }
 
-  /*-----------------------Contact Page @media 429px*/
+  /*--------------------------------@media - 390px*/
 
-  .contact-container {
-    max-width: 100%;
-    height: fit-content;
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-  }
-  .form-container {
-    display: flexbox;
-    justify-content: center;
-  }
+  @media (max-width: 390px) {
+    /* ------------------------ Home Page @media 390px*/
+    h1 {
+      font-size: 2rem;
+    }
+    .hero {
+      min-height: 40%;
+    }
+    .menu {
+      font-size: small;
+      padding: 5px;
+    }
+    img {
+      max-width: 78%;
+    }
 
-  .contact-form {
-    display: contents;
-    justify-content: center;
-  }
-  iframe {
-    display: none;
-  }
+    /*---------------------- About Page @media - 390px */
+    h2 {
+      font-size: small;
+      margin-top: 13%;
+      margin-bottom: 12%;
+    }
+    .heading {
+      font-size: 1.5rem;
+    }
+    .kristen-image {
+      min-height: auto;
+      min-width: 50%;
+    }
+    .about-page-container {
+      align-items: center;
+    }
+    .about-me-paragraph {
+      position: inherit;
+    }
+    .accordian-item {
+      min-height: 20%;
+      min-width: auto;
+    }
+    .accordian-link {
+      font-size: small;
+    }
 
-  /*----------------------------Footer @media 429px*/
-  .f-grid-item {
-    font-size: 3rem;
-    padding-top: 55px;
+    /* -----------------Contact Page @media - 390px*/
+    .contact-form {
+      max-width: 100%;
+    }
+    .contact-container {
+      max-width: 100%;
+      max-height: fit-content;
+    }
+    .map {
+      display: none;
+    }
+    /*---------------------- Footer @media - 390px*/
+    .f-grid-item {
+      font-size: 3rem;
+      padding-top: 55px;
+    }
   }
-}
-/*-------------------------------------@media - 412px*/
-@media (max-width: 412px) {
-  h1 {
-    font-size: 3rem;
-  }
-  #hero-page-arrow-down {
-    font-size: 1.5rem;
-    left: 50%;
-  }
-  .menu {
-    padding: 10px;
-  }
-  /*------------------------------About Page @media - 412px*/
-  .heading {
-    font-size: 2rem;
-  }
-
-  /*-----------------------Contact Page @media - 412px */
-
-  .contact-container {
-    max-width: 100%;
-  }
-  .map {
-    display: none;
-  }
-
-  /*---------------------------Footer @media - 412px*/
-  .f-grid-item {
-    font-size: 3rem;
-    padding-top: 55px;
-  }
-}
-
-/*--------------------------------@media - 390px*/
-
-@media (max-width: 390px) {
-  /* ------------------------ Home Page @media 390px*/
-  h1 {
-    font-size: 2rem;
-  }
-  #hero-page-arrow-down {
-    font-size: 2rem;
-    margin-left: 0.6rem;
-    margin-top: 2rem;
-    bottom: 50%;
-    left: 46%;
-  }
-  .hero {
-    min-height: 40%;
-  }
-  .menu {
-    font-size: small;
-    padding: 5px;
-  }
-  img {
-    max-width: 78%;
-  }
-
-  /*---------------------- About Page @media - 390px */
-  h2 {
-    font-size: small;
-    margin-top: 13%;
-    margin-bottom: 12%;
-  }
-  .heading {
-    font-size: 1.5rem;
-  }
-  .kristen-image {
-    min-height: auto;
-    min-width: 50%;
-  }
-  .about-page-container {
-    align-items: center;
-  }
-  .about-me-paragraph {
-    position: inherit;
-  }
-  .accordian-item {
-    min-height: 20%;
-    min-width: auto;
-  }
-  .accordian-link {
-    font-size: small;
+  /*--------------------------------@media 379px*/
+  @media (max-width: 379px) {
+    h1 {
+      font-size: 3rem;
+    }
+    .hero {
+      min-height: 40%;
+    }
+    .menu {
+      font-size: small;
+      padding: 10px;
+    }
+    h2 {
+      font-size: small;
+      margin-top: 13%;
+      margin-bottom: 12%;
+    }
+    /* --------------------------------Contact Page @media - 379px*/
+    .map {
+      display: none;
+    }
   }
 
-  /* -----------------Contact Page @media - 390px*/
-  .contact-form {
-    max-width: 100%;
+  /* --------------------------------------- @media - 376px*/
+  @media (max-width: 376px) {
+    /* -----------------------------------Home Page @media - 376px */
+    h1 {
+      font-size: 2rem;
+    }
+    .hero {
+      min-height: 40%;
+    }
+    .menu {
+      font-size: small;
+    }
+    h2 {
+      font-size: small;
+      margin-top: 13%;
+      margin-bottom: 12%;
+    }
+    /* ---------------------------------About Page @media - 376px */
+    .kristen-image {
+      min-height: auto;
+      min-width: 50%;
+    }
+    .about-page-container {
+      align-items: center;
+    }
+    .about-me-paragraph {
+      position: inherit;
+    }
+    .accordian-link {
+      font-size: small;
+    }
+    /* --------------------------------- Contact Page @media 376px */
+    .map {
+      display: none;
+    }
   }
-  .contact-container {
-    max-width: 100%;
-    max-height: fit-content;
-  }
-  .map {
-    display: none;
-  }
-  /*---------------------- Footer @media - 390px*/
-  .f-grid-item {
-    font-size: 3rem;
-    padding-top: 55px;
-  }
-}
-/*--------------------------------@media 379px*/
-@media (max-width: 379px) {
-  h1 {
-    font-size: large;
-  }
-  #hero-page-arrow-down {
-    font-size: 15px;
-    margin-left: 0.6rem;
-    margin-top: 2rem;
-  }
-  .hero {
-    min-height: 40%;
-  }
-  .menu {
-    font-size: small;
-    padding: 10px;
-  }
-  h2 {
-    font-size: small;
-    margin-top: 13%;
-    margin-bottom: 12%;
-  }
-  /* --------------------------------Contact Page @media - 379px*/
-  .map {
-    display: none;
-  }
-}
+  /* ---------------------------------------@media -364px */
+  @media (max-width: 364px) {
+    /* ----------------------------------Home Page @media - 364px*/
+    .hero {
+      min-height: 25%;
+    }
+    h2 {
+      font-size: small;
+      margin-bottom: 15%;
+      margin-top: 13%;
+      border: 2px solid #bc6c25;
+    }
+    .menu {
+      font-size: small;
+    }
+    h1 {
+      font-size: 70%;
+      padding-bottom: 5rem;
+      margin-bottom: 25%;
+    }
+    /* --------------------------------about page @media - 364px*/
+    .heading {
+      font-size: larger;
+      padding-top: 25%;
+    }
+    .kristen-image {
+      min-height: auto;
+      min-width: 55%;
+    }
+    .about-page-container {
+      align-items: center;
+    }
+    .about-me-paragraph {
+      position: inherit;
+    }
+    .accordian-link {
+      font-size: small;
+    }
+    /* --------------------------------Contact Page @media - 364px*/
 
-/* --------------------------------------- @media - 376px*/
-@media (max-width: 376px) {
-  /* -----------------------------------Home Page @media - 376px */
-  h1 {
-    font-size: large;
+    .form-container {
+      max-height: 80%;
+    }
+    .contact-form {
+      max-height: 75%;
+      align-items: center;
+    }
+    .contact-container {
+      max-height: 100%;
+    }
+    textarea {
+      max-height: 50%;
+      max-width: 75%;
+    }
+    .map {
+      display: none;
+    }
+    /* ----------------------------------Footer @media - 364px*/
+    .f-grid-item {
+      font-size: 3rem;
+      padding-top: 55px;
+    }
   }
-  #hero-page-arrow-down {
-    font-size: 15px;
-    margin-left: 0.6rem;
-    margin-top: 2rem;
-  }
-  .hero {
-    min-height: 40%;
-  }
-  .menu {
-    font-size: small;
-  }
-  h2 {
-    font-size: small;
-    margin-top: 13%;
-    margin-bottom: 12%;
-  }
-  /* ---------------------------------About Page @media - 376px */
-  .kristen-image {
-    min-height: auto;
-    min-width: 50%;
-  }
-  .about-page-container {
-    align-items: center;
-  }
-  .about-me-paragraph {
-    position: inherit;
-  }
-  .accordian-link {
-    font-size: small;
-  }
-  /* --------------------------------- Contact Page @media 376px */
-  .map {
-    display: none;
-  }
-}
-/* ---------------------------------------@media -364px */
-@media (max-width: 364px) {
-  /* ----------------------------------Home Page @media - 364px*/
-  .hero {
-    min-height: 25%;
-  }
-  h2 {
-    font-size: small;
-    margin-bottom: 15%;
-    margin-top: 13%;
-    border: 2px solid #bc6c25;
-  }
-  .menu {
-    font-size: small;
-  }
-  h1 {
-    font-size: 70%;
-    padding-bottom: 5rem;
-    margin-bottom: 25%;
-  }
-  #hero-page-arrow-down {
-    font-size: medium;
-  }
-  /* --------------------------------about page @media - 364px*/
-  .heading {
-    font-size: larger;
-    padding-top: 25%;
-  }
-  .kristen-image {
-    min-height: auto;
-    min-width: 55%;
-  }
-  .about-page-container {
-    align-items: center;
-  }
-  .about-me-paragraph {
-    position: inherit;
-  }
-  .accordian-link {
-    font-size: small;
-  }
-  /* --------------------------------Contact Page @media - 364px*/
-
-  .form-container {
-    max-height: 80%;
-  }
-  .contact-form {
-    max-height: 75%;
-    align-items: center;
-  }
-  .contact-container {
-    max-height: 100%;
-  }
-  textarea {
-    max-height: 50%;
-    max-width: 75%;
-  }
-  .map {
-    display: none;
-  }
-  /* ----------------------------------Footer @media - 364px*/
-  .f-grid-item {
-    font-size: 3rem;
-    padding-top: 55px;
-  }
-}
 }
